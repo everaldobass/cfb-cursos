@@ -1,4 +1,4 @@
-# cursos-rocketseat
+# CFB Cursos
 Curso Layout Full Page HTML5, CSS3 é JavaScript.
 
 ## Instrutor
