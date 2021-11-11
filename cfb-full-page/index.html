@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Layout - FULL PAGE </title>
+</head>
+
+<body>
+
+
+        <header>
+            <a href="" class="logo"> logo</a>
+            <nav>
+                <ul>
+                    <li> <a href="#banner"> Home </a></li>
+                    <li> <a href="#sobre"> Sobre </a></li>
+                    <li> <a href="#cursos"> Cursos </a></li>
+                    <li> <a href="#canal"> Canal </a></li>
+                    <li> <a href="#contato"> Contato </a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <section class="conteudo1" id="banner">
+            <img src="/assets/img/banner.jpg" alt="" srcset="">
+        </section>
+
+        <section class="conteudo2 flexivel parallax p2" id="sobre">
+
+            <article data-anima="esquerda">
+                <h1>Conteúdo - Sobre 1 </h1>
+            </article>
+
+            <article data-anima="direita">
+                <h1>Conteúdo - Sobre 2 </h1>
+            </article>
+        </section>
+
+        <section class="conteudo3 flexivel " id="cursos">
+
+           <article data-anima="esquerda" class="container-cursos">
+
+            <img src="/assets/img/00.jpg" class="mini" onclick="click_modal(this)" alt="image1">
+            <img src="/assets/img/01.jpg" class="mini" onclick="click_modal(this)" alt="image2">
+            <img src="/assets/img/02.jpg" class="mini" onclick="click_modal(this)" alt="image3">
+            <img src="/assets/img/03.jpg" class="mini" onclick="click_modal(this)" alt="image4">
+            
+           </article>
+
+           <article data-anima="centro" class="container-cursos">
+
+            <img src="/assets/img/04.jpg" class="mini" onclick="click_modal(this)" alt="image5">
+            <img src="/assets/img/05.jpg" class="mini" onclick="click_modal(this)" alt="image6">
+            <img src="/assets/img/06.jpg" class="mini" onclick="click_modal(this)" alt="image7">
+            <img src="/assets/img/07.jpg" class="mini" onclick="click_modal(this)" alt="image8">
+           
+           </article>
+
+           <article data-anima="direita" class="container-cursos">
+
+            <img src="/assets/img/08.jpg" class="mini" onclick="click_modal(this)" alt="image9">
+            <img src="/assets/img/09.jpg" class="mini" onclick="click_modal(this)" alt="image10">
+            <img src="/assets/img/10.jpg" class="mini" onclick="click_modal(this)" alt="image11">
+            <img src="/assets/img/11.jpg" class="mini" onclick="click_modal(this)" alt="image12">
+            
+           </article>
+
+        </section>
+
+        <section class="conteudo4 flexivel" id="contato">
+
+            
+            <article data-anima="esquerda">
+                <h2>Artigo - 1</h2>
+               
+            </article>
+
+            <article data-anima="direita">
+                <h2>Artigo - 2</h2>
+              
+            </article>
+        </section>
+
+        <section class=" conteudo4 flexivel parallax p1" id="canal">
+            <article>
+                <h1>HTML</h1>
+                <h1>CSS </h1>
+                <h1>JAVASCRIPT</h1>
+                <h1>REACTJS</h1>
+
+            </article>
+        </section>
+
+
+        <footer>
+            <h1> Footer Rodapé</h1>
+            <br>
+            <p> &copy; 2021 - Everaldo Nascimento </p>
+        </footer>
+
+        <div id="janelaModal" class="janelaModal  escondeJanelaModal">
+            <span id="btnFechar" class="fecharModal"> X </span>
+            <img id="imgModal" class="imgModal" src="" alt="">
+            <div id="txtModal" class="txtModal"></div>
+
+        </div>
+
+
+        <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
